@@ -62,7 +62,7 @@
   RewriteCond %{REQUEST_FILENAME}\.php -f
   RewriteRule ^(.*)$ $1.php [NC,L]
 
-  RewriteCond %{HTTP_HOST} ^alz-bot\.com [NC]
+  RewriteCond %{HTTP_HOST} ^alz-bot.com [NC]
   RewriteCond %{SERVER_PORT} 80
   RewriteRule ^(.*)$ https://alz-bot.com/$1 [R,L]
 
