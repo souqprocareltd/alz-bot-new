@@ -1,0 +1,47 @@
+ .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* لون خلفية مظلمة بنسبة شفافية 0.5 */
+    z-index: 999;
+}
+.language-notification.warning {
+    background-color: rgba(253, 236, 92, 0.9); /* لون معتم بنسبة شفافية 0.9 */
+    color: #000;
+    padding: 15px;
+    border: 5px solid #fdcb6e;
+    border-radius: 12px;
+    font-size: 28px;
+    text-align: center;
+    position: fixed;
+    top: 50%;
+    z-index: 1000;
+    left:0%;
+    right:0%;
+}
+
+.language-notification.warning:before {
+    content: "";
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: #d63031;    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+@media screen and (max-width: 768px) {
+    .language-notification.warning {
+
+    padding: 20px;
+    border: 5px solid #fdcb6e;
+    border-radius: 12px;
+    font-size: 24px;
+    text-align: center;
+    position: fixed;
+    top: 20%;
+left:0%;
+right:0%;
+    }
+}

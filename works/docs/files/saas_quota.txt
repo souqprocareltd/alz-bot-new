@@ -1,0 +1,91 @@
+
+## MONTHLY PLANS | MAX QUOTA ##
+
+## From 0 to 4.99 USD a month 
+messages: 100, agents: 1, users: 10
+
+## From 5 to 6.99 USD a month 
+messages: 5000, agents: 2, users: 500
+
+## From 7 to 9.99 USD a month 
+messages: 7000, agents: 3, users: 700
+
+## From 10 to 14.99 USD a month 
+messages: 10000, agents: 3, users: 1000
+
+## From 15 to 19.99 USD a month 
+messages: 15000, agents: 3, users: 1500
+
+## From 20 to 24.99 USD a month 
+messages: 25000, agents: 6, users: 2000
+
+## From 25 to 29.99 USD a month 
+messages: 35000, agents: 6, users: 2500
+
+## From 30 to 39.99 USD a month 
+messages: 50000, agents: 6, users: 3000
+
+## From 40 to 59.99 USD a month 
+messages: 70000, agents: 10, users: 5000
+
+## From 60 to 79.99 USD a month 
+messages: 100000, agents: 9999, users: 20000
+
+## From 80 to 119.99 USD a month 
+messages: 150000, agents: 9999, users: 50000
+
+## From 120 to 229.99 USD a month 
+messages: 200000, agents: 9999, users: 1000000
+
+## From 230 to 299.99 USD a month 
+messages: 500000, agents: 9999, users: Unlimited
+
+## From 300 to 500 USD a month 
+messages: 1000000, agents: 9999, users: Unlimited
+
+
+
+## YEARLY PLANS  | MAX QUOTA ##
+
+## From 0 to 49.99 USD a year
+messages: 1000 a year, agents: 1, users: 10
+
+## From 50 to 69.99 USD a year 
+messages: 50000 a year, agents: 2, users: 5000
+
+## From 70 to 99.99 USD a year 
+messages: 70000 a year, agents: 3, users: 7000
+
+## From 100 to 149.99 USD a year 
+messages: 100000 a year, agents: 3, users: 10000
+
+## From 150 to 199.99 USD a year 
+messages: 150000 a year, agents: 3, users: 15000
+
+## From 200 to 249.99 USD a year 
+messages: 250000 a year, agents: 6, users: 20000
+
+## From 250 to 299.99 USD a year 
+messages: 350000 a year, agents: 6, users: 25000
+
+## From 300 to 399.99 USD a year 
+messages: 500000 a year, agents: 6, users: 30000
+
+## From 400 to 599.99 USD a year 
+messages: 700000 a year, agents: 10, users: 50000
+
+## From 600 to 799.99 USD a year 
+messages: 1000000 a year, agents: 9999, users: 200000
+
+## From 80 to 1199.99 USD a year 
+messages: 1500000 a year, agents: 9999, users: 500000
+
+## From 1200 to 2299.99 USD a year 
+messages: 2000000 a year, agents: 9999, users: 1000000
+
+## From 2300 to 2999.99 USD a year 
+messages: 5000000 a year, agents: 9999, users: Unlimited
+
+## From 3000 to 5000 USD a year 
+messages: 10000000 a year, agents: 9999, users: Unlimited
+ 

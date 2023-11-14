@@ -1,0 +1,652 @@
+[
+  "chat-login-init" => [false],
+  "init-dashboard" => [false],
+  "disable-dashboard" => [false],
+  "force-one-conversation" => [false],
+  "chat-timetable-disable" => [false],
+  "chat-offline-disable" => [false],
+  "front-auto-translations" => [true],
+  "auto-open" => [true],
+  "disable-uploads" => [false],
+  "close-chat" => [false],
+  "articles-active" => [true],
+  "articles-title" => [""],
+  "articles-button-link" => [""],
+  "chat-manual-init" => [false],
+  "agents-menu" => [
+    [
+      "agents-menu-active" => [false],
+      "agents-menu-title" => [""]
+    ]
+  ],
+  "chat-timetable" => [
+    [
+      "chat-timetable-active" => [false],
+      "chat-timetable-hide" => [true],
+      "chat-timetable-agents" => [false],
+      "chat-timetable-type" => [""],
+      "chat-timetable-title" => [""],
+      "chat-timetable-msg" => [""]
+    ]
+  ],
+  "privacy" => [
+    [
+      "privacy-active" => [false],
+      "privacy-title" => [""],
+      "privacy-msg" => [""],
+      "privacy-msg-decline" => [""],
+      "privacy-link" => [""],
+      "privacy-link-text" => [""],
+      "privacy-btn-approve" => [""],
+      "privacy-btn-decline" => [""]
+    ]
+  ],
+  "popup-message" => [
+    [
+      "popup-active" => [true],
+      "popup-mobile-hidden" => [true],
+      "popup-image" => [""],
+      "popup-title" => [""],
+      "popup-msg" => [""]
+    ]
+  ],
+  "welcome-message" => [
+    [
+      "welcome-active" => [false],
+      "welcome-open" => [true],
+      "welcome-sound" => [false],
+      "welcome-disable-office-hours" => [false],
+      "welcome-trigger" => ["load"],
+      "welcome-delay" => [""],
+      "welcome-msg" => [""]
+    ]
+  ],
+  "follow-message" => [
+    [
+      "follow-active" => [true],
+      "follow-disable-office-hours" => [false],
+      "follow-name" => [true],
+      "follow-last-name" => [false],
+      "follow-phone" => [true],
+      "follow-phone-required" => [false],
+      "follow-title" => [""],
+      "follow-delay" => [""],
+      "follow-msg" => [""],
+      "follow-success" => [""],
+      "follow-placeholder" => [""]
+    ]
+  ],
+  "close-message" => [
+    [
+      "close-active" => [false],
+      "close-transcript" => [true],
+      "close-msg" => [""]
+    ]
+  ],
+  "subscribe-message" => [
+    [
+      "subscribe-active" => [false],
+      "subscribe-sound" => [false],
+      "subscribe-delay" => [""],
+      "subscribe-title" => [""],
+      "subscribe-msg" => [""],
+      "subscribe-msg-success" => [""]
+    ]
+  ],
+  "admin-title" => [""],
+  "login-icon" => [""],
+  "admin-icon" => [""],
+  "login-message" => [""],
+  "collapse" => [true],
+  "admin-auto-translations" => [false],
+  "admin-auto-archive" => [false],
+  "admin-agents-users-area" => [true],
+  "admin-agents-tab" => [false],
+  "agents-delete" => [true],
+  "rtl-admin" => [false],
+  "show-profile-images-admin" => [true],
+  "disable-notes" => [false],
+  "disable-filters" => [false],
+  "disable-attachments" => [false],
+  "transcript" => [
+    [
+      "transcript-type" => ["txt"],
+      "transcript-action" => [""],
+      "transcript-message" => [""]
+    ]
+  ],
+  "grammarly" => [
+    [
+      "grammarly-active" => [true],
+      "grammarly-client-id" => [""]
+    ]
+  ],
+  "user-table-extra-columns" => [
+    [
+      [
+        "user-table-extra-slug" => "phone"
+      ]
+    ]
+  ],
+  "saved-replies" => [
+    [
+      [
+        "reply-name" => "registration",
+        "reply-text" => "[registration]"
+      ],
+      [
+        "reply-name" => "select",
+        "reply-text" => "[select id=\"1234\" options=\"Priority post, Express courier, International courier\" title=\"Shipping methods\" message=\"Choose your shipping method\" success=\"Thank you! Your chosen method is\"]"
+      ]
+    ]
+  ],
+  "custom-js" => [""],
+  "custom-css" => [""],
+  "manifest-url" => [""],
+  "chat-sound" => ["n"],
+  "chat-sound-admin" => ["n"],
+  "notify-agent-email" => [false],
+  "notify-user-email" => [false],
+  "online-users-notification" => [false],
+  "desktop-notifications" => [""],
+  "flash-notifications" => ["all"],
+  "push-notifications" => [
+    [
+      "push-notifications-active" => [true],
+      "push-notifications-users-active" => [false],
+      "push-notifications-id" => [""],
+      "push-notifications-key" => [""],
+      "push-notifications-sw-url" => [""]
+    ]
+  ],
+  "sms" => [
+    [
+      "sms-active-agents" => [false],
+      "sms-active-users" => [true],
+      "sms-user" => [""],
+      "sms-token" => [""],
+      "sms-sender" => [""],
+      "sms-message-agent" => [""],
+      "sms-message-user" => [""]
+    ]
+  ],
+  "email-server" => [
+    [
+      "email-server-host" => [""],
+      "email-server-user" => [""],
+      "email-server-password" => [""],
+      "email-server-port" => [""],
+      "email-server-from" => [""],
+      "email-sender-name" => [""]
+    ]
+  ],
+  "email-piping" => [
+    [
+      "email-piping-active" => [true],
+      "email-piping-host" => [""],
+      "email-piping-user" => [""],
+      "email-piping-password" => [""],
+      "email-piping-port" => ["995"],
+      "email-piping-delimiter" => [false],
+      "email-piping-all" => [true],
+      "email-piping-disable-cron" => [true],
+      "email-piping-department" => [""]
+    ]
+  ],
+  "notifications-icon" => [""],
+  "visitors-registration" => [false],
+  "registration-required" => [""],
+  "registration-timetable" => [false],
+  "registration-offline" => [false],
+  "registration-link" => [""],
+  "registration" => [
+    [
+      "registration-title" => [""],
+      "registration-msg" => [""],
+      "registration-success" => [""],
+      "registration-btn-text" => [""],
+      "registration-terms-link" => [""],
+      "registration-privacy-link" => [""]
+    ]
+  ],
+  "login" => [
+    [
+      "login-title" => [""],
+      "login-msg" => [""]
+    ]
+  ],
+  "registration-profile-img" => [false],
+  "registration-last-name" => [false],
+  "registration-password" => [true],
+  "registration-email-disable" => [false],
+  "registration-fields" => [
+    [
+      "reg-phone" => [false],
+      "reg-city" => [false],
+      "reg-country" => [false],
+      "reg-language" => [false],
+      "reg-birthday" => [false],
+      "reg-company" => [false],
+      "reg-facebook" => [false],
+      "reg-twitter" => [false],
+      "reg-linkedin" => [false],
+      "reg-website" => [false]
+    ]
+  ],
+  "registration-phone-required" => [true],
+  "phone-code" => [""],
+  "registration-user-details-success" => [true],
+  "user-additional-fields" => [
+    [
+      [
+        "extra-field-name" => "Nationality",
+        "extra-field-slug" => "nationality",
+        "extra-field-required" => false
+      ],
+      [
+        "extra-field-name" => "Gender",
+        "extra-field-slug" => "gender",
+        "extra-field-required" => true
+      ]
+    ]
+  ],
+  "registration-extra" => [false],
+  "visitor-prefix" => [""],
+  "visitor-default-name" => ["Friend"],
+  "visitor-autodata" => [false],
+  "duplicate-emails" => [true],
+  "bot-name" => [""],
+  "bot-image" => [""],
+  "color-1" => [""],
+  "color-2" => [""],
+  "color-3" => [""],
+  "chat-position" => ["right"],
+  "rtl" => [false],
+  "display-users-thumb" => [true],
+  "hide-agents-thumb" => [false],
+  "header-headline" => [""],
+  "header-msg" => [""],
+  "header-type" => ["minimal"],
+  "header-name" => [true],
+  "brand-img" => [""],
+  "header-img" => [""],
+  "chat-icon" => [""],
+  "chat-sb-icons" => [null],
+  "chat-background" => [""],
+  "chat-button-offset" => [
+    [
+      "chat-button-offset-top" => [""],
+      "chat-button-offset-bottom" => [""],
+      "chat-button-offset-right" => [""],
+      "chat-button-offset-left" => [""],
+      "chat-button-offset-mobile" => ["mobile"]
+    ]
+  ],
+  "envato-purchase-code" => [""],
+  "auto-updates" => [false],
+  "webhooks" => [
+    [
+      "webhooks-active" => [false],
+      "webhooks-url" => [""],
+      "webhooks-key" => [""],
+      "webhooks-allowed" => ["message-sent, new-messages-received"]
+    ]
+  ],
+  "pusher" => [
+    [
+      "pusher-active" => [true],
+      "pusher-id" => [""],
+      "pusher-key" => [""],
+      "pusher-secret" => [""],
+      "pusher-cluster" => [""]
+    ]
+  ],
+  "newsletter" => [
+    [
+      "newsletter-active" => [false],
+      "newsletter-service" => [""],
+      "newsletter-list-id" => ["1"],
+      "newsletter-key" => [""]
+    ]
+  ],
+  "timetable" => [
+    [
+      "monday" => [
+        ["08 =>00", "8 =>00 am"],
+        ["11 =>30", "11 =>30 am"],
+        ["", ""],
+        ["", ""]
+      ],
+      "tuesday" => [
+        ["08 =>00", "8 =>00 am"],
+        ["21 =>30", "9 =>30 pm"],
+        ["", ""],
+        ["", ""]
+      ],
+      "wednesday" => [
+        ["08 =>00", "8 =>00 am"],
+        ["22 =>30", "10 =>30 pm"],
+        ["", ""],
+        ["", ""]
+      ],
+      "thursday" => [
+        ["", ""],
+        ["", ""],
+        ["", ""],
+        ["", ""]
+      ],
+      "friday" => [
+        ["08 =>00", "8 =>00 am"],
+        ["09 =>00", "9 =>00 am"],
+        ["16 =>00", "4 =>00 pm"],
+        ["23 =>30", "11 =>30 pm"]
+      ],
+      "saturday" => [
+        ["01 =>00", "1 =>00 am"],
+        ["07 =>00", "7 =>00 am"],
+        ["", ""],
+        ["", ""]
+      ],
+      "sunday" => [
+        ["", ""],
+        ["", ""],
+        ["", ""],
+        ["", ""]
+      ]
+    ]
+  ],
+  "timetable-utc" => ["5"],
+  "departments" => [
+    [
+      [
+        "department-name" => "Tech",
+        "department-color" => "yellow",
+        "department-image" => "",
+        "department-id" => "1"
+      ],
+      [
+        "department-name" => "Sales",
+        "department-color" => "red",
+        "department-image" => "",
+        "department-id" => "2"
+      ]
+    ]
+  ],
+  "departments-settings" => [
+    [
+      "departments-dashboard" => [false],
+      "departments-images" => [true],
+      "departments-label" => [""],
+      "departments-single-label" => [""],
+      "departments-title" => [""]
+    ]
+  ],
+  "queue" => [
+    [
+      "queue-active" => [false],
+      "queue-concurrent-chats" => ["1"],
+      "queue-response-time" => [""],
+      "queue-message" => [""],
+      "queue-message-success" => [""]
+    ]
+  ],
+  "routing" => [false],
+  "agent-hide-conversations" => [
+    [
+      "agent-hide-conversations-active" => [true],
+      "agent-hide-conversations-menu" => [true],
+      "agent-hide-conversations-routing" => [true],
+      "agent-hide-conversations-view" => [false]
+    ]
+  ],
+  "cookie-domain" => [""],
+  "performance" => [
+    [
+      "performance-phone-codes" => [false],
+      "performance-minify" => [false],
+      "performance-reports" => [false]
+    ]
+  ],
+  "dialogflow-active" => [true],
+  "dialogflow-token" => [""],
+  "dialogflow-project-id" => ["c"],
+  "dialogflow-location" => [""],
+  "dialogflow-edition" => [""],
+  "dialogflow-welcome" => [false],
+  "dialogflow-multilingual" => [true],
+  "dialogflow-language-detection" => [
+    [
+      "dialogflow-language-detection-active" => [false],
+      "dialogflow-language-detection-message" => [""]
+    ]
+  ],
+  "google-translation" => [true],
+  "dialogflow-timetable" => [false],
+  "dialogflow-disable-tickets" => [true],
+  "dialogflow-human-takeover" => [
+    [
+      "dialogflow-human-takeover-active" => [true],
+      "dialogflow-human-takeover-auto" => [false],
+      "dialogflow-human-takeover-message" => [""],
+      "dialogflow-human-takeover-message-confirmation" => [""],
+      "dialogflow-human-takeover-confirm" => [""],
+      "dialogflow-human-takeover-cancel" => [""]
+    ]
+  ],
+  "dialogflow-bot-delay" => [""],
+  "dialogflow-smart-reply" => [
+    [
+      "dialogflow-smart-reply-active" => [false],
+      "dialogflow-smart-reply-language-detection" => [true],
+      "dialogflow-smart-reply-profile" => [""]
+    ]
+  ],
+  "dialogflow-google-search" => [
+    [
+      "dialogflow-google-search-active" => [false],
+      "dialogflow-google-search-spelling-active" => [true],
+      "dialogflow-google-search-id" => [""],
+      "dialogflow-google-search-key" => [""],
+      "dialogflow-google-search-entities" => [
+        []
+      ]
+    ]
+  ],
+  "dialogflow-send-user-details" => [true],
+  "dialogflow-email-piping" => [true],
+  "dialogflow-sms" => [false],
+  "dialogflow-departments" => [
+    [
+      [
+        "dialogflow-departments-id" => "1",
+        "dialogflow-departments-agent" => ""
+      ]
+    ]
+  ],
+  "tickets-height" => [""],
+  "tickets-height-offset" => [""],
+  "tickets-registration-required" => [true],
+  "tickets-registration-disable-password" => [true],
+  "tickets-articles" => [true],
+  "tickets-conversations-title-user" => [false],
+  "tickets-conversation-name" => [""],
+  "tickets-names" => [
+    [
+      "tickets-names-title" => [""],
+      "tickets-names-message" => [""],
+      "tickets-names-panel" => [""],
+      "tickets-names-button" => [""]
+    ]
+  ],
+  "tickets-registration-redirect" => [""],
+  "tickets-default-form" => ["registration"],
+  "tickets-fields" => [
+    [
+      "tickets-field-departments" => [true],
+      "tickets-field-priority" => [false]
+    ]
+  ],
+  "'ickets-custom-fields" => [
+    [
+      [
+        "tickets-extra-field-name" => "Name",
+        "tickets-extra-field-slug" => "name",
+        "tickets-extra-field-required"=> true
+      ],
+      [
+        "tickets-extra-field-name" => "Email",
+        "tickets-extra-field-slug" => "email",
+        "tickets-extra-field-required" => true
+      ]
+    ]
+  ],
+  "tickets-disable-features" => [
+    [
+      "tickets-registration-login" => [false],
+      "tickets-first-ticket" => [false],
+      "tickets-edit-profile" => [false],
+      "tickets-left-panel" => [false],
+      "tickets-arrows" => [false],
+      "tickets-right-panel" => [false],
+      "tickets-profile-image" => [false],
+      "tickets-department" => [false],
+      "tickets-button" => [false],
+      "tickets-agent" => [false],
+      "tickets-agent-details" => [false]
+    ]
+  ],
+  "tickets-default-department" => ["1"],
+  "tickets-welcome-message" => [
+    [
+      "tickets-welcome-message-active" => [true],
+      "tickets-welcome-message-msg" => [""]
+    ]
+  ],
+  "tickets-email-notification" => [""],
+  "tickets-enter-button" => [false],
+  "tickets-manual-init" => [false],
+  "messenger-pages" => [
+    [
+      [
+        "messenger-page-name" => "",
+        "messenger-page-id" => "",
+        "messenger-page-token" => "",
+        "messenger-instagram-id" => "",
+        "messenger-page-department" => ""
+      ]
+    ]
+  ],
+  "whatsapp-twilio" => [
+    [
+      "whatsapp-twilio-user" => [""],
+      "whatsapp-twilio-token" => [""],
+      "whatsapp-twilio-sender" => [""]
+    ]
+  ],
+  "whatsapp-360" => [
+    [
+      "whatsapp-360-key" => [""]
+    ]
+  ],
+  "whatsapp-sms" => [
+    [
+      "whatsapp-sms-active" => [false],
+      "whatsapp-sms-template" => [""]
+    ]
+  ],
+  "whatsapp-template" => [""],
+  "whatsapp-template-360" => [
+    [
+      "whatsapp-template-360-namespace" => [""],
+      "whatsapp-template-360-name" => [""],
+      "whatsapp-template-360-language" => [""],
+      "whatsapp-template-360-parameters" => [""]
+    ]
+  ],
+  "whatsapp-order-webhook" => [""],
+  "whatsapp-department" => [""],
+  "twitter" => [
+    [
+      "twitter-consumer-key" => [""],
+      "twitter-consumer-secret" => [""],
+      "twitter-access-token" => [""],
+      "twitter-secret-token" => [""],
+      "twitter-username" => [""]
+    ]
+  ],
+  "twitter-department" => [""],
+  "telegram" => [
+    [
+      "telegram-token" => [""]
+    ]
+  ],
+  "telegram-department" => [""],
+  "wechat" => [
+    [
+      "wechat-token" => [""],
+      "wechat-app-id" => [""],
+      "wechat-app-secret" => [""]
+    ]
+  ],
+  "wechat-department" => [""],
+  "slack-active" => [false],
+  "slack-workspace" => [""],
+  "slack-token" => [""],
+  "slack-token-user" => [""],
+  "slack-channel" => [""],
+  "slack-agents" => [
+    [
+      "U629T708Z" => ["123"]
+    ]
+  ],
+  "slack-departments" => [
+    [
+      [
+        "slack-departments-id" => "1",
+        "slack-departments-channel" => "U629T708Z"
+      ]
+    ]
+  ],
+  "slack-user-details" => ["user_type, token, creation_time, country_code, current_url"],
+  "slack-disable-invitation" => [false],
+  "zendesk-active" => [false],
+  "zendesk" => [
+    [
+      "zendesk-domain" => [""],
+      "zendesk-email" => [""],
+      "zendesk-key" => [""]
+    ]
+  ],
+  "perfex-db" => [
+    [
+      "perfex-db-name" => [""],
+      "perfex-db-user" => [""],
+      "perfex-db-password" => [""],
+      "perfex-db-host" => [""],
+      "perfex-db-prefix" => [""]
+    ]
+  ],
+  "perfex-url" => [""],
+  "whmcs-currency-symbol" => [""],
+  "whmcs-db" => [
+    [
+      "whmcs-db-name" => [""],
+      "whmcs-db-user" => [""],
+      "whmcs-db-password" => [""],
+      "whmcs-db-host" => [""]
+    ]
+  ],
+  "whmcs-url" => [""],
+  "aecommerce-currency-symbol" => [""],
+  "aecommerce-panel-title" => [""],
+  "aecommerce-db" => [
+    [
+      "aecommerce-db-name" => [""],
+      "aecommerce-db-user" => [""],
+      "aecommerce-db-password" => [""],
+      "aecommerce-db-host" => [""]
+    ]
+  ],
+  "aecommerce-url" => [""],
+  "aecommerce-key" => [""]
+]

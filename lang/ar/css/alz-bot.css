@@ -1,0 +1,140 @@
+/*New Style Alz-Bot Techno Viz
+    web: https://alz-bot.com
+    web: https://en.techn-oviz.com
+    add data: 2023-10-30
+    vi: 1.0.0
+    add user: Mohamad Samir
+*/
+/* ������� ������� �� �� �������*/
+.revi-techno_viz {
+    position: relative;
+    text-align: center;
+    top: 30px;
+}
+
+/*���� ����� ���� ��� �� ��� �������ʿ ����� �� ���� ���� ������� �����! �� �� ������� */
+.st-techno_viz {
+    position: relative;
+    text-align: center;
+}
+.st-techno_viz, p {
+    position: relative;
+    top: -20px;
+}
+
+.st-techno_viz-ar {
+    position: relative;
+    text-align: center;
+}
+.st-techno_viz-ar, p {
+    position: relative;
+    top: -20px;
+}
+/* ������� ������ ������ ��������  ���� �������� � ������� ��������*/
+@media screen and (max-width: 768px) {
+    .st-techno_viz-ar {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .st-techno_viz-ar, h2 {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width: 1230px) {
+    .st-techno_viz-ar, h2 {
+        display: none !important;
+    }
+}
+/*����� ����� �� ��� tickets.html*/
+.alz-bot-ticket {
+    position: relative;
+    z-index: 5;
+    background-color: #ffffff;
+    padding: 6px;
+    border-radius: 8px;
+    margin: 0 8px;
+    margin-top: 125px;
+    text-align: center;
+}
+.alz-bot-ticket, h2 {
+    text-align: center;
+margin-left: 0px;
+}
+/*�������� �� ��� articles.html*/
+.alz-bot-article {
+    position: relative;
+    z-index: 5;
+    background-color: #ffffff;
+    padding: 6px;
+    border-radius: 8px;
+    margin: 0 8px;
+    margin-top: 145px;
+}
+.alz-bot-article, h2 {
+    text-align: center;
+    margin-left: 0px;
+}
+
+.st-techno_viz-en{
+    position: relative;
+    text-align: center;
+    font-size: 16px;
+}
+
+.st-techno_viz-en,h3{
+    position: relative;
+    text-align: center;
+    top:-30px;
+}
+/*عرض الحصول على خصم 33% يعمل فقط في apps للغة العربية فقط*/
+
+
+
+/* ������� ������ ������ ��������  ���� �������� � ������� ��������*/
+@media screen and (max-width: 768px) {
+    .st-techno_viz-en {
+
+
+    display: none !important;
+
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .st-techno_viz-en, h3 {
+        display: none !important;
+    }
+}
+@media screen and (max-width: 1230px) {
+    .st-techno_viz-en, h3 {
+        display: none !important;
+    }
+}
+/*�������� �� ��� ��� ���� ����� ��� ������� ������� �� �� �������*/
+.al-free-trial {
+    position: relative;
+    z-index: 5;
+    text-align: center;
+    margin: 0 auto;
+    float: left;
+    top: 10px;
+    font-size: 12px;
+}
+
+/* ������� ������ ������ �������� */
+@media screen and (max-width: 768px) {
+    .al-free-trial {
+        /* ������� ������� ���� ��� �� 768 ���� */
+        font-size: 18px; /* ���� ��� ����� ����� */
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .al-free-trial {
+        /* ������� ������� ���� ��� �� 1024 ���� */
+        font-size: 20px; /* ���� ��� ����� ����� */
+    }
+}
